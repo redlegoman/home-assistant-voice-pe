@@ -1910,6 +1910,12 @@ voice_assistant:
     - script.execute: control_leds
 
 button:
+
+ibutton:
+  - platform: template
+    name: "Center Button"
+    on_press:
+      - script.execute: control_leds
   - platform: factory_reset
     id: factory_reset_button
     name: "Factory Reset"
