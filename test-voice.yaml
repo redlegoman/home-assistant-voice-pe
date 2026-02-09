@@ -1911,7 +1911,7 @@ voice_assistant:
 
 button:
   - platform: template
-    name: "Center Button"
+    name: "Center Button XXX"
     on_press:
       - script.execute: control_leds
   - platform: factory_reset
