@@ -1928,3 +1928,6 @@ button:
 
 debug:
   update_interval: 5s
+
+web_server:
+  port: 80
