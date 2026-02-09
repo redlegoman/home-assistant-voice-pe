@@ -1910,8 +1910,6 @@ voice_assistant:
     - script.execute: control_leds
 
 button:
-
-ibutton:
   - platform: template
     name: "Center Button"
     on_press:
