@@ -1692,12 +1692,14 @@ external_components:
       url: https://github.com/esphome/esphome
       ref: bff22983a390352360796f8e1363127e0cd1f898
     components: [media_player]
+
   - source:
       # https://github.com/esphome/esphome/pull/12284
       type: git
       url: https://github.com/esphome/esphome
-      ref: aef3a4afd9c7186751fc9d097742325b3390572f
+      ref: a6c0a861a014e64c67d46115eba8e5370777b80a
     components: [mdns, sendspin]
+
   - source:
       # https://github.com/esphome/esphome/pull/12429
       type: git
